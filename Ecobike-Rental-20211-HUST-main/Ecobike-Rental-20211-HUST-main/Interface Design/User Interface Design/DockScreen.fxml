@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox prefHeight="800.0" prefWidth="1300.0">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: yellow;">
+               <children>
+                  <Label text="Dock Information" textFill="#2e75ee">
+                     <HBox.margin>
+                        <Insets left="30.0" top="25.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="50.0" />
+                     </font>
+                  </Label>
+               </children>
+               <effect>
+                  <ColorAdjust brightness="0.17" hue="0.12" />
+               </effect>
+            </HBox>
+            <Pane prefHeight="400.0" prefWidth="200.0">
+               <children>
+                  <Label layoutX="400.0" text="Name">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="400.0" layoutY="50.0" text="Address">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="400.0" layoutY="100.0" text="Area">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="400.0" layoutY="300.0" text="Number of empty points">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="400.0" layoutY="150.0" text="Number of Available bikes">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="400.0" layoutY="250.0" text="Distance">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <TextField layoutX="650.0" prefWidth="400.0">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField layoutX="650.0" layoutY="50.0" prefWidth="400.0">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField layoutX="650.0" layoutY="100.0" prefWidth="400.0">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField layoutX="650.0" layoutY="151.0" prefWidth="30.0" />
+                  <TextField layoutX="650.0" layoutY="183.0" prefWidth="30.0" />
+                  <TextField layoutX="650.0" layoutY="215.0" prefWidth="30.0" />
+                  <Label layoutX="695.0" layoutY="151.0" text="Standard Bikes">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="695.0" layoutY="183.0" text="Standard E-bikes">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="695.0" layoutY="215.0" text="Twins Bikes">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <TextField layoutX="650.0" layoutY="250.0" prefWidth="30.0" />
+                  <TextField layoutX="650.0" layoutY="302.0" prefWidth="30.0" />
+                  <Label layoutX="695.0" layoutY="251.0" text="Km">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="695.0" layoutY="302.0" text="points">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <HBox layoutY="321.0" prefHeight="84.0" prefWidth="1300.0">
+                     <children>
+                        <Label text="Available bikes" textFill="#2b81cd">
+                           <font>
+                              <Font size="50.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="40.0" top="10.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+            </Pane>
+            <Pane prefHeight="300.0" prefWidth="1300.0">
+               <children>
+                  <VBox layoutX="79.0" prefHeight="296.0" prefWidth="189.0">
+                     <children>
+                        <Label text="ID" textFill="#cd732e">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                        <Label text="1005">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                        <Label text="1905">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox layoutX="304.0" prefHeight="300.0" prefWidth="279.0">
+                     <children>
+                        <Label text="Type" textFill="#cd732e">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                        <Label text="Standard Bike">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                        <Label text="Twins bike">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox layoutX="673.0" prefHeight="300.0" prefWidth="454.0">
+                     <children>
+                        <Label text="Point" textFill="#cd732e">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                        <Label text="1">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="10.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label text="3">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="10.0" />
+                           </VBox.margin>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

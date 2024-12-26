@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox prefHeight="800.0" prefWidth="1300.0">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: yellow;">
+               <children>
+                  <Label text="Payment Form" textFill="#2e75ee">
+                     <HBox.margin>
+                        <Insets left="30.0" top="25.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="50.0" />
+                     </font>
+                  </Label>
+               </children>
+               <effect>
+                  <ColorAdjust brightness="0.17" hue="0.12" />
+               </effect>
+            </HBox>
+            <Pane prefHeight="314.0" prefWidth="1300.0">
+               <children>
+                  <Label layoutX="610.0" text="Card Number">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="610.0" layoutY="55.0" text="Card Holder">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="610.0" layoutY="110.0" text="Expiration date">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="610.0" layoutY="165.0" text="Security code">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <TextField layoutX="750.0" prefWidth="400.0">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField layoutX="750.0" layoutY="50.0" prefWidth="400.0">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField layoutX="750.0" layoutY="100.0" prefWidth="200.0">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <HBox layoutY="224.0" prefHeight="84.0" prefWidth="1300.0">
+                     <children>
+                        <Label text="Renting Bikes" textFill="#2b81cd">
+                           <font>
+                              <Font size="50.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="40.0" top="10.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <TextField layoutX="750.0" layoutY="163.0" prefWidth="200.0">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <Label layoutX="103.0" layoutY="1.0" text="Choose Payment method " textFill="#1560c9">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <RadioButton disable="true" layoutX="166.0" layoutY="30.0" mnemonicParsing="false" text="Credit Card">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </RadioButton>
+               </children>
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+            </Pane>
+            <Pane prefHeight="78.0" prefWidth="1300.0">
+               <children>
+                  <VBox layoutX="79.0" prefHeight="77.0" prefWidth="170.0">
+                     <children>
+                        <Label text="ID" textFill="#cd732e">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                        <Label text="1005">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox layoutX="304.0" prefHeight="78.0" prefWidth="268.0">
+                     <children>
+                        <Label text="Type" textFill="#cd732e">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                        <Label text="Standard Bike">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox layoutX="673.0" prefHeight="79.0" prefWidth="409.0">
+                     <children>
+                        <Label text="Point" textFill="#cd732e">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                        <Label text="1">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="10.0" />
+                           </VBox.margin>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </Pane>
+            <Pane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Button layoutX="437.0" layoutY="6.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="383.0" style="-fx-background-color: red;" text="Confirm to payment" textFill="WHITE">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
