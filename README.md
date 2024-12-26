@@ -26,13 +26,13 @@ Các thay đổi đã được thực hiện sau khi bảo vệ
 
 # TKXDPM.20211.KSTN-12
 
-Repo này bao gồm cả document và source code cho Phần mềm thuê xe EcoBikeRental. Để clone về toàn bộ document và source code:
+Repo này bao gồm cả document cho Phần mềm thuê xe EcoBikeRental. Để clone về toàn bộ document
 ```
-git clone --recurse-submodules https://github.com/txloc1909/TKXDPM.KSTN.20211-12.git
+git clone --recurse-submodules https://github.com/hieutran-coder/Ecobike_Rental_HUST_20221.git
 ```
 hoặc
 ```
-git clone https://github.com/txloc1909/TKXDPM.KSTN.20211-12.git 
+git clone https://github.com/hieutran-coder/Ecobike_Rental_HUST_20221.git
 git submodule init
 git submodule update
 ```
@@ -55,6 +55,8 @@ Repo này nằm trong thư mục `ecobikerental`.
 Javadoc được đặt trong `ecobikerental/doc`
 
 Hướng dẫn cài đặt được nằm trong `ecobikerental/README.md`
+
+Chú ý: Để lấy source code hãy liên hệ với mình.
 
 ## Demo 
 [Link video demo phần mềm EcoBikeRental](https://www.youtube.com/watch?v=sdjd5-2IzDY)
