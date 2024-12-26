@@ -26,9 +26,6 @@ Các thay đổi đã được thực hiện sau khi bảo vệ
 
 # TKXDPM.20211.KSTN-12
 
-Thành viên nhóm: Lộc, Huy, Hiếu
-
-
 Repo này bao gồm cả document và source code cho Phần mềm thuê xe EcoBikeRental. Để clone về toàn bộ document và source code:
 ```
 git clone --recurse-submodules https://github.com/txloc1909/TKXDPM.KSTN.20211-12.git
@@ -61,3 +58,4 @@ Hướng dẫn cài đặt được nằm trong `ecobikerental/README.md`
 
 ## Demo 
 [Link video demo phần mềm EcoBikeRental](https://www.youtube.com/watch?v=sdjd5-2IzDY)
+
