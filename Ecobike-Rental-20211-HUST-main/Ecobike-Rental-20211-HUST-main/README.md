@@ -25,13 +25,6 @@ Các thay đổi đã được thực hiện sau khi bảo vệ
 ---
 
 # TKXDPM.20211.KSTN-12
-
-Thành viên nhóm:
-1. Trần Xuân Lộc - 20183577
-2. Vũ Quang Huy - 20183930
-3. Trần Hữu Hiếu - 20180078 
-
-
 Repo này bao gồm cả document và source code cho Phần mềm thuê xe EcoBikeRental. Để clone về toàn bộ document và source code:
 ```
 git clone --recurse-submodules https://github.com/txloc1909/TKXDPM.KSTN.20211-12.git
